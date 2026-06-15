@@ -1,0 +1,6 @@
+dlenv/
+__pycache__/
+*.keras
+*.h5
+*.pyc
+.vscode/
