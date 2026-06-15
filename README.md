@@ -111,7 +111,8 @@ The Streamlit application allows users to upload images and receive predictions 
 cifar10/
 
 ├── app.py
-├── train.py
+├── train_model.py
+├── predict.py
 ├── README.md
 ├── cifar.keras
 └── requirements.txt
@@ -139,6 +140,24 @@ python train.py
 streamlit run app.py
 ```
 
+## Prediction Using Command Line
+
+The trained model can be used directly through the prediction script.
+
+Run:
+
+```bash
+python predict.py
+```
+
+Enter the image filename when prompted.
+
+The script will display:
+
+- Predicted class
+- Prediction confidence
+
+This demonstrates model inference without using the Streamlit interface.
 ---
 
 ## Learning Outcomes
@@ -151,6 +170,7 @@ This project demonstrates:
 - Image classification
 - Model deployment using Streamlit
 - End-to-end machine learning workflow
+- Model inference using command-line prediction scripts
 
 ---
 
